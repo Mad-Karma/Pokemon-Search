@@ -88,7 +88,7 @@ function App() {
                 prefetchPokemon(pokemon.id - 1);
                 prefetchPokemon(pokemon.id + 1);
             }
-            else if(pokemon.id == 1) { // Case where the ID bottom limit is reached
+            else if(pokemon.id === 1) { // Case where the ID bottom limit is reached
                 prefetchPokemon(2);
             }
         }
@@ -99,7 +99,7 @@ function App() {
                 prefetchPokemon(pokemonId - 1);
                 prefetchPokemon(pokemonId + 1);
             }
-            else if(pokemonId == 1) { // Case where the ID bottom limit is reached
+            else if(pokemonId === 1) { // Case where the ID bottom limit is reached
                 prefetchPokemon(2);
             }
         }
