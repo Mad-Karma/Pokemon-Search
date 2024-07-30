@@ -1,0 +1,165 @@
+.App {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 75vh;
+    background: #efebeb;
+    border-radius: 20px;
+}
+
+.title-container {
+    margin: 0;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    background: #3c5aa6;
+    color: #ffcb05;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 2.5em;
+}
+
+.title-image {
+    width: 35%;
+    height: 160%;
+    margin-left: 1em;
+}
+
+.search-container {
+    display: flex;
+    margin-top: 2.5em;
+}
+
+.search-bar {
+    padding-left: 1em;
+    margin-left: 3em;
+    height: 2.5em;
+    width: 50%;
+    border-radius: 30px;
+    font-size: 1em;
+}
+
+.search-button {
+    margin-left: 1em;
+    padding: 0.5em 1.2em 0.5em 1.2em;
+    border-radius: 30px;
+    background: #2a75bb;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.pokemon-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.pokemon-info-general {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.pokemon-image {
+    width: 35%;
+    margin-left: 2em;
+}
+
+.pokemon-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+}
+
+.pokemon-name {
+    text-transform: capitalize;
+    font-size: 1.4em;
+}
+
+#name {
+    font-weight: bold;
+}
+
+.pokemon-id {
+    margin-top: 1em;
+    font-size: 1.3em;
+}
+
+#id {
+    font-weight: bold;
+}
+
+.pokemon-buttons {
+    margin-top: 2em;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon-button-previous {
+    width: 18%;
+    height: 40%;
+    border-radius: 50px;
+    border: none;
+    background: #2a75bb;
+    color: white;
+    font-weight: bold;
+    font-size: 0.95em;
+    cursor: pointer;
+}
+
+.pokemon-button-next {
+    margin-left: 2.5em;
+    width: 18%;
+    height: 40%;
+    border-radius: 50px;
+    border: none;
+    background: #2a75bb;
+    color: white;
+    font-weight: bold;
+    font-size: 0.95em;
+    cursor: pointer;
+}
+
+.loading-container {
+    padding-bottom: 3em;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.7em;
+    color: black;
+}
+
+.error-container {
+    padding-bottom: 3em;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.7em;
+    color: red;
+}
