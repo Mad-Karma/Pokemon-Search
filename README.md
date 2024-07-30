@@ -6,7 +6,9 @@ A React application (my very first) to search for a Pokémon. A basic search app
 
 It supports searches for specific names and partial names. When a name is searched, a query is made to PokeAPI (https://pokeapi.co) to get information about the searched Pokémon. In the case of searching using a partial name, it shows the information of the first-found match by searching through a list of all the Pokémon (obtained through a query). The user can also cycle through the available Pokémon using the Previous/Next buttons.
 
-To avoid making queries to the API in each search, React Query was used, which allows the results to stay in cache for a period of time. In order to minimize the loading time, a prefetch of the previous/next Pokémon is done. 
+To avoid making queries to the API in each search, React Query was used, which allows the results to stay in cache for a period of time. In order to minimize the loading time, a prefetch of the previous/next Pokémon is done.
+
+Also the the queries were set to not start on their own, so that they are only executed when needed, using a refetch.
 
 ## How to run
 
